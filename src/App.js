@@ -1,7 +1,8 @@
-import Hello from "./components/Helloworld";
+import NumSum from "././components/Sum"
+
 
 const App = () => {
-    return ( <Hello>Mark</Hello> );
+    return ( <NumSum></NumSum> );
 }
  
 export default App;
