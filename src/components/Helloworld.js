@@ -1,5 +1,5 @@
-const Hello = () => {
-    return ( <h1>Hello, World! </h1> );
+const Hello = (props) => {
+    return ( <h1>Hello, {props.children}! </h1> );
 }
  
 export default Hello;

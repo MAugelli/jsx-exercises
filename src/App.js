@@ -1,7 +1,7 @@
 import Hello from "./components/Helloworld";
 
 const App = () => {
-    return ( <Hello/> );
+    return ( <Hello>Mark</Hello> );
 }
  
 export default App;
